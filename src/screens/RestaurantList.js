@@ -24,4 +24,4 @@ const styles = theme => ({
         justifyContent: "flex-start"  
     },
 });
-export default withStyles(styles)(RestaurantList.js)
+export default withStyles(styles)(RestaurantList)
