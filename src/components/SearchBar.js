@@ -6,7 +6,6 @@ export default class PizzaTranslator extends Component {
         super(props);  
         this.state = {text: ''};  
     }  
-  
     render() {  
         return (  
           <TextInput  

@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import SearchBar from '../components/SearchBar';
 import List from '../components/List';
 
-class AppComponent extends React.Component {
+class RestaurantList extends React.Component {
     render(){
         const classes = this.props.classes
         return (
@@ -24,4 +24,4 @@ const styles = theme => ({
         justifyContent: "flex-start"  
     },
 });
-export default withStyles(styles)(AppComponent)
+export default withStyles(styles)(RestaurantList.js)
